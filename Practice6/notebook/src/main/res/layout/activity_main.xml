@@ -45,14 +45,16 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Загрузить" />
+            android:text="Загрузить"
+            android:onClick="onLoadButton"/>
 
         <Button
             android:id="@+id/saveButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Сохранить" />
+            android:text="Сохранить"
+            android:onClick="onSaveButton"/>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
